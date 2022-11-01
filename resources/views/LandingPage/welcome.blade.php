@@ -31,8 +31,10 @@
                         </li>
                     </ul>
                     <div class="line-dec"></div>
-                    <div class="about-bottom"> <img src="{{ asset('assets/img/signature-dark.svg') }}" alt=""
-                            class="image about-signature">
+                    <div class="about-bottom">
+                        <div class="px-3 ml-2">
+                            <p>{{ env('APP_NAME') }}</p>
+                        </div>
                         <div class="about-name-wrapper">
                             <div class="about-name">Adam Norman</div>
                             <div class="about-rol">CEO & Founder</div>
@@ -146,8 +148,7 @@
                     <div class="col-md-6 offset-md-3 mb-45 text-center">
                         <h5>How We Work</h5>
                         <h2>Our Process</h2>
-                        <p>Suspendisse potenti sed laoen ultra magna in dignissim justo porta miss acurabitur luctus magna
-                            numsation elentesue the miss vitae moie.</p>
+                        <p>Our work flow depends</p>
                     </div>
                 </div>
                 <div class="row">

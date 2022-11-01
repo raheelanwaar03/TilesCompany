@@ -43,8 +43,7 @@
     </div>
     <nav class="navbar navbar-expand-md">
         <div class="container">
-            <!-- Logo -->
-            <a class="logo" href="index-2.html"> <img src="img/logo.png" alt=""> </a>
+            <a class="logo" href="/"> <img src="{{ asset('assets/img/logo.png') }}" alt=""> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
                 aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
                     class="navbar-toggler-icon"><i class="fa fa-bars"></i></span> </button>
@@ -68,9 +67,7 @@
                             <div class="col-md-7">
                                 <h4>Guaranteed High Quality</h4>
                                 <h1>Welcome to {{ env('APP_NAME') }}. Construction</h1>
-                                <p>Our 25 years working experience make a different construction building. Viverra
-                                    tristique usto duis vitae diam neque nivamus estan the atin viverra nectow drana
-                                    setlie.</p> <a href="projects.html" class="button-primary">Our Projects</a> <a
+                                <p>Our 25 years working experience make a different construction building.</p> <a href="projects.html" class="button-primary">Our Projects</a> <a
                                     href="services.html" class="button-tersiyer">Our Services</a>
                             </div>
                         </div>
@@ -85,9 +82,7 @@
                             <div class="col-md-7">
                                 <h4>Architecture Design</h4>
                                 <h1>We Build Great Projects</h1>
-                                <p>Our 25 years working experience make a different construction building. Viverra
-                                    tristique usto duis vitae diam neque nivamus estan the atin viverra nectow drana
-                                    setlie.</p> <a href="projects.html" class="button-primary">Our Projects</a> <a
+                                <p>Our 25 years working experience make a different construction building.</p> <a href="projects.html" class="button-primary">Our Projects</a> <a
                                     href="services.html" class="button-tersiyer">Our Services</a>
                             </div>
                         </div>
@@ -102,9 +97,7 @@
                             <div class="col-md-7">
                                 <h4>Professional Team</h4>
                                 <h1>Build Your Dream House</h1>
-                                <p>Our 25 years working experience make a different construction building. Viverra
-                                    tristique usto duis vitae diam neque nivamus estan the atin viverra nectow drana
-                                    setlie.</p> <a href="projects.html" class="button-primary">Our Projects</a> <a
+                                <p>Our 25 years working experience make a different construction building.</p> <a href="projects.html" class="button-primary">Our Projects</a> <a
                                     href="services.html" class="button-tersiyer">Our Services</a>
                             </div>
                         </div>
