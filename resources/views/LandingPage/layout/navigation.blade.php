@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,7 +31,8 @@
                 <div class="top-outer clearfix">
                     <div class="top-left">
                         <ul class="links clearfix">
-                            <li><a href="tel:+12033334444"><span class="fa fa-phone"></span>{{ env('APP_Phone') }}</a></li>
+                            <li><a href="tel:+12033334444"><span class="fa fa-phone"></span>{{ env('APP_Phone') }}</a>
+                            </li>
                             <li><a href="mailto:info@construction.com"><span
                                         class="fa fa-envelope"></span>{{ env('APP_Email') }}</a></li>
                             <li><a href="https://goo.gl/maps/zgdqkg4hFFR8pfDS8" target="_blank"><span
@@ -43,7 +45,8 @@
     </div>
     <nav class="navbar navbar-expand-md">
         <div class="container">
-            <a href="{{ route('LandingPage') }}"><img class="logo" src="{{ asset('assets/img/logo.png') }}" alt="logo"></a>
+            <a href="{{ route('LandingPage') }}"><img class="logo" src="{{ asset('assets/img/logo.png') }}"
+                    alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
                 aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
                     class="navbar-toggler-icon"><i class="fa fa-bars"></i></span> </button>
@@ -51,8 +54,6 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown"> <span class="nav-link active">Home</span>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>

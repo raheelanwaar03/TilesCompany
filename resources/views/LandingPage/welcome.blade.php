@@ -32,15 +32,27 @@
                                 <p>All kind of AC ducts</p>
                             </div>
                         </li>
+                        <li>
+                            <div class="listext-icon"> <i class="norc-d-check"></i> </div>
+                            <div class="listext-text">`
+                                <p>Panting</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="listext-icon"> <i class="norc-d-check"></i> </div>
+                            <div class="listext-text">
+                                <p>Tiles Fixing</p>
+                            </div>
+                        </li>
                     </ul>
                     <div class="line-dec"></div>
                     <div class="about-bottom">
                         <div class="px-3 ml-2">
-                            <p>{{ env('APP_NAME') }}</p>
+                            <p></p>
                         </div>
                         <div class="about-name-wrapper">
-                            <div class="about-name">Adam Norman</div>
-                            <div class="about-rol">CEO & Founder</div>
+                            <div class="about-name">Jose Mandapathil Louis</div>
+                            <div class="about-rol">Manger</div>
                         </div>
                     </div>
                 </div>
@@ -91,7 +103,7 @@
                             <div class="img"> <img src="{{ asset('assets/img/Ac1.png') }}" alt=""> </div>
                         </div>
                         <div class="cont">
-                            <div class="service-icon"> <i class="norc-factory"></i> </div>
+                            <div class="service-icon"> <i class="norc-cogwheel"></i> </div>
                             <h5><a href="services-page.html">All type of AC Duct work</a></h5>
                             <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
                                 risus nesuen.</p>
@@ -99,22 +111,26 @@
                     </div>
                     <div class="item mb-30">
                         <div class="service-img">
-                            <div class="img"> <img src="{{ asset('assets/img/services/4.jpg') }}" alt=""> </div>
+                            <div class="img"> <img src="{{ asset('assets/img/constraction1.png') }}" alt="">
+                            </div>
                         </div>
                         <div class="cont">
                             <div class="service-icon"> <i class="norc-radiation"></i> </div>
-                            <h5><a href="services-page.html">Plastic & Tiles</a></h5>
-                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt risus nesuen.</p> <a href="services-page.html" class="link-btn" tabindex="0">View service</a>
+                            <h5><a href="services-page.html">Tiles Fixing</a></h5>
+                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
+                                risus nesuen.</p>
                         </div>
                     </div>
                     <div class="item mb-30">
                         <div class="service-img">
-                            <div class="img"> <img src="{{ asset('assets/img/services/5.jpg') }}" alt=""> </div>
+                            <div class="img"> <img src="{{ asset('assets/img/services/1a.jpg') }}" alt=""> </div>
                         </div>
                         <div class="cont">
+                            <div class="service-icon"> <i class="norc-factory"></i> </div>
                             <div class="service-icon"> <i class="norc-cogwheel"></i> </div>
-                            <h5><a href="services-page.html">Const. Management</a></h5>
-                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt risus nesuen.</p> <a href="services-page.html" class="link-btn" tabindex="0">View service</a>
+                            <h5><a href="services-page.html">Panting</a></h5>
+                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
+                                risus nesuen.</p>
                         </div>
                     </div>
                 </div>
@@ -180,8 +196,6 @@
                             <div class="line-dec"></div>
                             <div class="info-wrapper">
                                 <div class="date"><i class="norc-new-construction"></i> Renovation</div>
-                                <div class="more"><a href="project-page.html" class="link-btn"
-                                        tabindex="0">Discover</a></div>
                             </div>
                         </div>
                     </div>
@@ -197,8 +211,6 @@
                             <div class="line-dec"></div>
                             <div class="info-wrapper">
                                 <div class="date"><i class="norc-factory"></i> Construction</div>
-                                <div class="more"><a href="project-page.html" class="link-btn"
-                                        tabindex="0">Discover</a></div>
                             </div>
                         </div>
                     </div>
@@ -214,8 +226,6 @@
                             <div class="line-dec"></div>
                             <div class="info-wrapper">
                                 <div class="date"><i class="norc-construction-sign"></i> Building</div>
-                                <div class="more"><a href="project-page.html" class="link-btn"
-                                        tabindex="0">Discover</a></div>
                             </div>
                         </div>
                     </div>
@@ -289,55 +299,6 @@
             </div>
         </div>
     </section>
-    {{-- <section class="team section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-
-                </div>
-                <img src="{{ asset('assets/img/team/6.jpg') }}" height="80px" width="150px" alt="pic">
-                <img src="{{ asset('assets/img/team/5.jpg') }}" height="80px" width="150px" alt="pic">
-                <img src="{{ asset('assets/img/team/1.jpg') }}" height="80px" width="150px" alt="company">
-            </div>
-        </div>
-        </div>
-    </section> --}}
-    {{-- <section class="numbers">
-        <div class="section-padding bg-img bg-fixed section-padding"
-            data-background="{{ asset('assets/img/banner2.jpg') }}" data-overlay-dark="6">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="item text-center"> <span class="icon">
-                                <i class="front norc-design"></i>
-                                <i class="back norc-design"></i>
-                            </span>
-                            <h3 class="count">675</h3>
-                            <h6><span>01.</span> Projects Design</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="item text-center"> <span class="icon">
-                                <i class="font norc-b-meeting"></i>
-                                <i class="back norc-b-meeting"></i>
-                            </span>
-                            <h3 class="count">450</h3>
-                            <h6><span>02.</span> Happy Clients</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="item text-center"> <span class="icon">
-                                <i class="front norc-paper-diploma"></i>
-                                <i class="back norc-paper-diploma"></i>
-                            </span>
-                            <h3 class="count">550</h3>
-                            <h6><span>03.</span> Completed Projects</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
     <section class="news section-padding bg-gray">
         <div class="container">
             <div class="row">
@@ -356,7 +317,7 @@
                         </div>
                         <div class="item">
                             <div class="position-re o-hidden"> <img src="{{ asset('assets/img/constraction3.jpg') }}"
-                                alt="">
+                                    alt="">
                             </div>
                         </div>
                         <div class="item">
