@@ -8,7 +8,8 @@
                     <div class="section-title">About <span>{{ env('APP_NAME') }}</span></div>
                     <p>
                         Greatings of the Day! <br>
-                        Hi {{ env('APP_NAME') }} is a experinced Construction Company which have almost 25 year's of experience.
+                        Hi {{ env('APP_NAME') }} is a experinced Construction Company which have almost 10 year's of
+                        experience.
                         We can help you in building your dream house.
                     </p>
                     <p>In which we are expert.</p>
@@ -46,7 +47,7 @@
                 <div class="col-md-6">
                     <div class="about-img"> <img src="{{ asset('assets/img/about.jpg') }}" alt="">
                         <div class="about-img-hotifer">
-                            <p>Our 25 years working experience make a different construction building.</p>
+                            <p>Our 10 years working experience make a different construction building.</p>
                         </div>
                     </div>
                 </div>
@@ -62,7 +63,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                <div class="col-md-12 owl-carousel owl-theme">
                     <div class="item mx-3 mb-30">
                         <div class="service-img">
                             <div class="img"> <img src="{{ asset('assets/img/electric1.png') }}" alt=""> </div>
@@ -96,13 +97,33 @@
                                 risus nesuen.</p>
                         </div>
                     </div>
+                    <div class="item mb-30">
+                        <div class="service-img">
+                            <div class="img"> <img src="{{ asset('assets/img/services/4.jpg') }}" alt=""> </div>
+                        </div>
+                        <div class="cont">
+                            <div class="service-icon"> <i class="norc-radiation"></i> </div>
+                            <h5><a href="services-page.html">Plastic & Tiles</a></h5>
+                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt risus nesuen.</p> <a href="services-page.html" class="link-btn" tabindex="0">View service</a>
+                        </div>
+                    </div>
+                    <div class="item mb-30">
+                        <div class="service-img">
+                            <div class="img"> <img src="{{ asset('assets/img/services/5.jpg') }}" alt=""> </div>
+                        </div>
+                        <div class="cont">
+                            <div class="service-icon"> <i class="norc-cogwheel"></i> </div>
+                            <h5><a href="services-page.html">Const. Management</a></h5>
+                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt risus nesuen.</p> <a href="services-page.html" class="link-btn" tabindex="0">View service</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="process">
-        <div class="section-padding bg-img bg-fixed section-padding"
-            data-background="{{ asset('assets/img/banner2.jpg') }}" data-overlay-dark="6">
+        <div class="section-padding bg-img bg-fixed section-padding" data-background="{{ asset('assets/img/banner2.jpg') }}"
+            data-overlay-dark="6">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 offset-md-3 mb-45 text-center">
@@ -268,74 +289,19 @@
             </div>
         </div>
     </section>
-    <section class="team section-padding">
+    {{-- <section class="team section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="section-subtitle">Expert Worker</div>
-                    <div class="section-title">Meet <span>Our Team</span></div>
+                <div class="col-sm-12">
+
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 owl-carousel owl-theme">
-                    <div class="team-card mb-30">
-                        <div class="team-img"><img src="{{ asset('assets/img/team/1.jpg') }}" alt=""
-                                class="w-100"></div>
-                        <div class="team-content">
-                            <h3 class="team-title">Adam Norman<span>CEO & Founder</span></h3>
-                            <p class="team-text">Nulla quis efficitur lacus sulvinar suere ausue in eduis euro vesatien
-                                arcuman ontese auctor ac aleuam aretra.</p>
-                            <div class="social">
-                                <div class="full-width"> <a href="#"><i class="fa fa-linkedin"></i></a> <a
-                                        href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i
-                                            class="fa fa-twitter"></i></a> <a href="#"><i
-                                            class="fa fa-instagram"></i></a> </div>
-                            </div>
-                        </div>
-                        <div class="title-box">
-                            <h3 class="mb-0">Adam Norman<span>CEO & Founder</span></h3>
-                        </div>
-                    </div>
-                    <div class="team-card mb-30">
-                        <div class="team-img"><img src="{{ asset('assets/img/team/6.jpg') }}" alt=""
-                                class="w-100"></div>
-                        <div class="team-content">
-                            <h3 class="team-title">Enrico Brown<span>Head of Sales</span></h3>
-                            <p class="team-text">Nulla quis efficitur lacus sulvinar suere ausue in eduis euro vesatien
-                                arcuman ontese auctor ac aleuam aretra.</p>
-                            <div class="social">
-                                <div class="full-width"> <a href="#"><i class="fa fa-linkedin"></i></a> <a
-                                        href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i
-                                            class="fa fa-twitter"></i></a> <a href="#"><i
-                                            class="fa fa-instagram"></i></a> </div>
-                            </div>
-                        </div>
-                        <div class="title-box">
-                            <h3 class="mb-0">Enrico Brown<span>Head of Sales</span></h3>
-                        </div>
-                    </div>
-                    <div class="team-card mb-30">
-                        <div class="team-img"><img src="{{ asset('assets/img/team/5.jpg') }}" alt=""
-                                class="w-100"></div>
-                        <div class="team-content">
-                            <h3 class="team-title">John Snow<span>Lead Project Manager</span></h3>
-                            <p class="team-text">Nulla quis efficitur lacus sulvinar suere ausue in eduis euro vesatien
-                                arcuman ontese auctor ac aleuam aretra.</p>
-                            <div class="social">
-                                <div class="full-width"> <a href="#"><i class="fa fa-linkedin"></i></a> <a
-                                        href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i
-                                            class="fa fa-twitter"></i></a> <a href="#"><i
-                                            class="fa fa-instagram"></i></a> </div>
-                            </div>
-                        </div>
-                        <div class="title-box">
-                            <h3 class="mb-0">John Snow<span>Lead Project Manager</span></h3>
-                        </div>
-                    </div>
-                </div>
+                <img src="{{ asset('assets/img/team/6.jpg') }}" height="80px" width="150px" alt="pic">
+                <img src="{{ asset('assets/img/team/5.jpg') }}" height="80px" width="150px" alt="pic">
+                <img src="{{ asset('assets/img/team/1.jpg') }}" height="80px" width="150px" alt="company">
             </div>
         </div>
-    </section>
+        </div>
+    </section> --}}
     {{-- <section class="numbers">
         <div class="section-padding bg-img bg-fixed section-padding"
             data-background="{{ asset('assets/img/banner2.jpg') }}" data-overlay-dark="6">
@@ -372,143 +338,53 @@
             </div>
         </div>
     </section> --}}
-    {{-- <section class="news section-padding bg-gray">
+    <section class="news section-padding bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="section-subtitle"><span>Latest News</span></div>
-                    <div class="section-title">Our <span>Blog</span></div>
+                    <div class="section-subtitle"><span>Latest Work</span></div>
+                    <div class="section-title">Our <span>Work</span></div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/news/5.jpg') }}"
+                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/plumber2.jpg') }}"
                                     alt="">
-                                <div class="date">
-                                    <a href="post.html"> <span>Dec</span> <i>10</i> </a>
-                                </div>
-                            </div>
-                            <div class="con">
-                                <h5><a href="post.html">Construction Delivery Methods Training</a></h5>
-                                <div class="divider"></div>
-                                <div class="news-info">
-                                    <div class="split-content news-info-left">
-                                        <div class="news-icon-wrapper"> <i class="norc-new-construction"></i> </div>
-                                        <div class="card-news-date-text">Construction</div>
-                                    </div>
-                                    <div class="split-content news-info-right"> <a href="#" class="link-btn"
-                                            tabindex="0">Read more</a> </div>
-                                </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/news/3.jpg') }}"
-                                    alt="">
-                                <div class="date">
-                                    <a href="post.html"> <span>Dec</span> <i>06</i> </a>
-                                </div>
-                            </div>
-                            <div class="con">
-                                <h5><a href="post.html">Modern Glass Building in Construction</a></h5>
-                                <div class="divider"></div>
-                                <div class="news-info">
-                                    <div class="split-content news-info-left">
-                                        <div class="news-icon-wrapper"> <i class="norc-pantone"></i> </div>
-                                        <div class="card-news-date-text">Interior</div>
-                                    </div>
-                                    <div class="split-content news-info-right"> <a href="#" class="link-btn"
-                                            tabindex="0">Read more</a> </div>
-                                </div>
+                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/constraction3.jpg') }}"
+                                alt="">
                             </div>
                         </div>
                         <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/news/4.jpg') }}"
+                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/plumber1.jpg') }}"
                                     alt="">
-                                <div class="date">
-                                    <a href="post.html"> <span>Dec</span> <i>08</i> </a>
-                                </div>
-                            </div>
-                            <div class="con">
-                                <h5><a href="post.html">Factory renovation architecture works</a></h5>
-                                <div class="divider"></div>
-                                <div class="news-info">
-                                    <div class="split-content news-info-left">
-                                        <div class="news-icon-wrapper"> <i class="norc-factory"></i> </div>
-                                        <div class="card-news-date-text">Industrial</div>
-                                    </div>
-                                    <div class="split-content news-info-right"> <a href="#" class="link-btn"
-                                            tabindex="0">Read more</a> </div>
-                                </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/news/2.jpg') }}"
+                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/company1.png') }}"
                                     alt="">
-                                <div class="date">
-                                    <a href="post.html"> <span>Dec</span> <i>04</i> </a>
-                                </div>
-                            </div>
-                            <div class="con">
-                                <h5><a href="post.html">Construction Site Security Guide</a></h5>
-                                <div class="divider"></div>
-                                <div class="news-info">
-                                    <div class="split-content news-info-left">
-                                        <div class="news-icon-wrapper"> <i class="norc-new-construction"></i> </div>
-                                        <div class="card-news-date-text">Construction</div>
-                                    </div>
-                                    <div class="split-content news-info-right"> <a href="#" class="link-btn"
-                                            tabindex="0">Read more</a> </div>
-                                </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/news/1.jpg') }}"
+                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/company2.png') }}"
                                     alt="">
-                                <div class="date">
-                                    <a href="post.html"> <span>Dec</span> <i>02</i> </a>
-                                </div>
-                            </div>
-                            <div class="con">
-                                <h5><a href="post.html">Airport Runway Construction Process</a></h5>
-                                <div class="divider"></div>
-                                <div class="news-info">
-                                    <div class="split-content news-info-left">
-                                        <div class="news-icon-wrapper"> <i class="norc-factory"></i> </div>
-                                        <div class="card-news-date-text">Industrial</div>
-                                    </div>
-                                    <div class="split-content news-info-right"> <a href="#" class="link-btn"
-                                            tabindex="0">Read more</a> </div>
-                                </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/news/6.jpg') }}"
+                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/electric1.png') }}"
                                     alt="">
-                                <div class="date">
-                                    <a href="post.html"> <span>Dec</span> <i>12</i> </a>
-                                </div>
-                            </div>
-                            <div class="con">
-                                <h5><a href="post.html">Exterior House Colors Combinations</a></h5>
-                                <div class="divider"></div>
-                                <div class="news-info">
-                                    <div class="split-content news-info-left">
-                                        <div class="news-icon-wrapper"> <i class="norc-pantone"></i> </div>
-                                        <div class="card-news-date-text">Interior</div>
-                                    </div>
-                                    <div class="split-content news-info-right"> <a href="#" class="link-btn"
-                                            tabindex="0">Read more</a> </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
     <section class="testimonials">
         <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/banner.jpg"
             data-overlay-dark="4">
@@ -532,7 +408,7 @@
                             <div class="cont mt-30 mb-30">
                                 <h6>Promo Video</h6>
                                 <h4>Video About Company</h4>
-                                <p>Video showing our 25 years of business experience.</p>
+                                <p>Video showing our 10 years of business experience.</p>
                             </div>
                         </div>
                     </div>

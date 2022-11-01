@@ -67,7 +67,7 @@
                             <div class="col-md-7">
                                 <h4>Guaranteed High Quality</h4>
                                 <h1>Welcome to {{ env('APP_NAME') }}. Construction</h1>
-                                <p>Our 25 years is based on truth and our quality work.</p>
+                                <p>Our 10 years is based on truth and our quality work.</p>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             <div class="col-md-7">
                                 <h4>Architecture Design</h4>
                                 <h1>We Build Great Projects</h1>
-                                <p>Our 25 years will help you to develop you to make a beautifull Design. <br>
+                                <p>Our 10 years will help you to develop you to make a beautifull Design. <br>
                                     We have fully educated and experinced Engineers team.
                                 </p>
                             </div>
@@ -97,7 +97,7 @@
                             <div class="col-md-7">
                                 <h4>Professional Team</h4>
                                 <h1>Build Your Dream House</h1>
-                                <p>Our 25 years working experience will help you to make your dream house. <br>
+                                <p>Our 10 years working experience will help you to make your dream house. <br>
                                     As we have a experinced Team and skills
                                 </p>
                             </div>
