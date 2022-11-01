@@ -83,19 +83,22 @@
                         <div class="cont">
                             <div class="service-icon"> <i class="norc-new-construction"></i> </div>
                             <h5><a href="services-page.html">Electric Work</a></h5>
-                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
-                                risus nesuen.</p>
+                            <p>Installs and repairs electrical wiring, systems, and fixtures in buildings. Installs conduits
+                                and pipes to house electrical wires and cables. Ensures piping complies with electrical
+                                codes. Installs circuit breakers and other electrical hardware and connects wiring to them.
+                            </p>
                         </div>
                     </div>
                     <div class="item mx-3 mb-30">
                         <div class="service-img">
-                            <div class="img"> <img src="{{ asset('assets/img/plumber1.png') }}" alt=""> </div>
+                            <div class="img"> <img src="{{ asset('assets/img/plumbing.jpg') }}" alt=""> </div>
                         </div>
                         <div class="cont">
                             <div class="service-icon"> <i class="norc-construction-sign"></i> </div>
                             <h5><a href="services-page.html">Plumbing Work</a></h5>
-                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
-                                risus nesuen.</p>
+                            <p>Plumbers install and repair pipes and fixtures that carry water, gas, or other fluids in
+                                homes and businesses. They also maintain plumbing fixtures like bathtubs and toilets and
+                                appliances such as dishwashers or heating systems.</p>
                         </div>
                     </div>
                     <div class="item mx-3 mb-30">
@@ -105,32 +108,36 @@
                         <div class="cont">
                             <div class="service-icon"> <i class="norc-cogwheel"></i> </div>
                             <h5><a href="services-page.html">All type of AC Duct work</a></h5>
-                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
-                                risus nesuen.</p>
+                            <p>Perform preventive maintenance and routine servicing of equipment. Diagnose defects, and
+                                install, repair and maintain heating, ventilating, refrigeration, and air-conditioning
+                                units. Follow oral and written instructions.</p>
                         </div>
                     </div>
                     <div class="item mb-30">
                         <div class="service-img">
-                            <div class="img"> <img src="{{ asset('assets/img/constraction1.png') }}" alt="">
+                            <div class="img"> <img src="{{ asset('assets/img/tile.webp') }}" alt="">
                             </div>
                         </div>
                         <div class="cont">
                             <div class="service-icon"> <i class="norc-radiation"></i> </div>
                             <h5><a href="services-page.html">Tiles Fixing</a></h5>
-                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
-                                risus nesuen.</p>
+                            <p>Mixes, applies, and spreads plaster, concrete, mortar, cement, mastic, glue, or other
+                                adhesive to apply, seal, and finish tile and marble flooring, counters, or walls. Uses
+                                levels, squares, straightedges, and hand or power cutting tools to complete jobs. Ensures
+                                masonry materials are properly aligned and straightened.</p>
                         </div>
                     </div>
                     <div class="item mb-30">
                         <div class="service-img">
-                            <div class="img"> <img src="{{ asset('assets/img/services/1a.jpg') }}" alt=""> </div>
+                            <div class="img"> <img src="{{ asset('assets/img/panting.webp') }}" alt=""> </div>
                         </div>
                         <div class="cont">
                             <div class="service-icon"> <i class="norc-factory"></i> </div>
                             <div class="service-icon"> <i class="norc-cogwheel"></i> </div>
-                            <h5><a href="services-page.html">Panting</a></h5>
-                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
-                                risus nesuen.</p>
+                            <h5><a href="services-page.html">Painting</a></h5>
+                            <p>Applies various finishes to buildings, rooms, or other structures, including primers or
+                                sealers. Prepares, cleans, and tapes all jobsites. Removes old paint coating, if necessary.
+                                Mixes colors or oils to obtain desired color or consistency.</p>
                         </div>
                     </div>
                 </div>
@@ -190,9 +197,11 @@
                         <figure><img src="{{ asset('assets/img/projects/5.jpg') }}" alt="" class="img-fluid">
                         </figure>
                         <div class="caption">
-                            <h4>Interior Remodeling <span>in Westport, CT</span></h4>
-                            <p>Construction elibero tristique mattis suspen dissen potenti seden laorien ultricies magna, in
-                                dignissim justo porta eget miss vention ormana the miss drana on the tenis vitae mollie.</p>
+                            <h4>Interior design by: <span>{{ env('APP_NAME') }}</span></h4>
+                            <p>The Interior Designer will create functional, safe, and aesthetically pleasing spaces by
+                                assessing space requirements, determining optimal furniture placement, and selecting
+                                decorative items, all while adhering to relevant blueprint, building code, and inspection
+                                requirements.</p>
                             <div class="line-dec"></div>
                             <div class="info-wrapper">
                                 <div class="date"><i class="norc-new-construction"></i> Renovation</div>
@@ -205,9 +214,9 @@
                         <figure><img src="{{ asset('assets/img/projects/1.jpg') }}" alt="" class="img-fluid">
                         </figure>
                         <div class="caption">
-                            <h4>Factory Construction <span>in Southlake, TX</span></h4>
-                            <p>Construction elibero tristique mattis suspen dissen potenti seden laorien ultricies magna, in
-                                dignissim justo porta eget miss vention ormana the miss drana on the tenis vitae mollie.</p>
+                            <h4>Factory Construction by:<span>{{ env('APP_NAME') }}</span></h4>
+                            <p>Factory design is used to plan changes when a factory or production line is to be modified.
+                                Factory design is also used to plan and layout completely new factories</p>
                             <div class="line-dec"></div>
                             <div class="info-wrapper">
                                 <div class="date"><i class="norc-factory"></i> Construction</div>
@@ -220,9 +229,10 @@
                         <figure><img src="{{ asset('assets/img/projects/6.jpg') }}" alt="" class="img-fluid">
                         </figure>
                         <div class="caption">
-                            <h4>Residential Construction <span>in Los Altos, CA</span></h4>
-                            <p>Construction elibero tristique mattis suspen dissen potenti seden laorien ultricies magna, in
-                                dignissim justo porta eget miss vention ormana the miss drana on the tenis vitae mollie.</p>
+                            <h4>Residential Construction by:<span>{{ env('APP_NAME') }}</span></h4>
+                            <p>Residential interior design refers to the designing of people's homes as opposed to
+                                commercial property. The object of these designers is to create interiors that fit the
+                                functioning of clients' homes, but also reflect each client's personal taste.</p>
                             <div class="line-dec"></div>
                             <div class="info-wrapper">
                                 <div class="date"><i class="norc-construction-sign"></i> Building</div>
@@ -230,7 +240,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -310,7 +319,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme">
-                        <div class="item">
+                        {{-- <div class="item">
                             <div class="position-re o-hidden"> <img src="{{ asset('assets/img/plumber2.jpg') }}"
                                     alt="">
                             </div>
@@ -324,13 +333,12 @@
                             <div class="position-re o-hidden"> <img src="{{ asset('assets/img/plumber1.jpg') }}"
                                     alt="">
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="item">
                             <div class="position-re o-hidden"> <img src="{{ asset('assets/img/company1.png') }}"
                                     alt="">
                             </div>
                         </div>
-
                         <div class="item">
                             <div class="position-re o-hidden"> <img src="{{ asset('assets/img/company2.png') }}"
                                     alt="">
@@ -338,6 +346,16 @@
                         </div>
                         <div class="item">
                             <div class="position-re o-hidden"> <img src="{{ asset('assets/img/electric1.png') }}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/tile.webp') }}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/panting.webp') }}"
                                     alt="">
                             </div>
                         </div>

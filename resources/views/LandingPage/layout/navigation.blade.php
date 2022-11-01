@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>{{ env('APP_NAME') }}. Construction</title>
+    <title>{{ env('APP_NAME') }}, Construction</title>
     <link rel="shortcut icon" href="{{ asset('assets/img/favicon.png') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/plugins.css') }}" />
     <link rel="stylesheet"
@@ -52,7 +52,10 @@
                     class="navbar-toggler-icon"><i class="fa fa-bars"></i></span> </button>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item dropdown"> <span class="nav-link active">Home</span>
+                    <li class="nav-item dropdown">
+                        <a href="{{ route('LandingPage') }}">
+                            <span class="nav-link active">Home</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -99,7 +102,7 @@
                                 <h4>Professional Team</h4>
                                 <h1>Build Your Dream House</h1>
                                 <p>Our 10 years working experience will help you to make your dream house. <br>
-                                    As we have a experinced Team and skills
+                                    As we have a experinced Team and skilled people.
                                 </p>
                             </div>
                         </div>
