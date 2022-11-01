@@ -11,7 +11,7 @@
                                 </div>
                                 <div class="footer-contact-link-content">
                                     <h6>Call us</h6>
-                                    <p>+1 203-333-4444</p>
+                                    <p>{{ env('APP_Phone') }}</p>
                                 </div>
                             </div>
                             <div class="footer-contact-links-divider"></div>
@@ -21,7 +21,7 @@
                                 </div>
                                 <div class="footer-contact-link-content">
                                     <h6>Write to us</h6>
-                                    <p>info@construction.com</p>
+                                    <p>{{ env('App_Email') }}</p>
                                 </div>
                             </div>
                             <div class="footer-contact-links-divider"></div>
@@ -31,7 +31,7 @@
                                 </div>
                                 <div class="footer-contact-link-content">
                                     <h6>Address</h6>
-                                    <p>24 King St, SC 29401 USA</p>
+                                    <p>{{ env('APP_Address') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 widget-area">
-                    <div class="widget clearfix">
+                    {{-- <div class="widget clearfix">
                         <h3 class="widget-title">Subscribe</h3>
                         <p>Want to be notified about our news. Just sign up and we'll send you a notification by email.
                         </p>
@@ -80,14 +80,14 @@
                                 <button type="submit">Send</button>
                             </form>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
         <div class="bottom-footer-text">
             <div class="row copyright">
                 <div class="col-md-12">
-                    <p class="mb-0">©2022 <a href="#">DuruThemes</a>. All rights reserved.</p>
+                    <p class="mb-0">©2022 <a href="#">{{ env('APP_NAME') }}</a>. All rights reserved.</p>
                 </div>
             </div>
         </div>

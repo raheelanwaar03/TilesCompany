@@ -6,27 +6,29 @@
                 <div class="col-md-6 mb-30">
                     <div class="section-subtitle">Construction Firm</div>
                     <div class="section-title">About <span>{{ env('APP_NAME') }}</span></div>
-                    <p>Our company at libero tristique mattis. Suspendisse potenti sed leonra main dignissim justo porta
-                        eget. Curabitur luctus magna numsaton vivention esellentesue the miss tenis vitae mollie.</p>
-                    <p>Curabitur luctus magna numsaton vivention esellentesue the mis awa vitan sedeonra magnain dignissim
-                        porta.</p>
+                    <p>
+                        Greatings of the Day! <br>
+                        Hi {{ env('APP_NAME') }} is a experinced Construction Company which have almost 25 year's of experience.
+                        We can help you in building your dream house.
+                    </p>
+                    <p>In which we are expert.</p>
                     <ul class="listext list-unstyled mb-30">
                         <li>
                             <div class="listext-icon"> <i class="norc-d-check"></i> </div>
                             <div class="listext-text">
-                                <p>Over 25 years of experience</p>
+                                <p>Electric Work</p>
                             </div>
                         </li>
                         <li>
                             <div class="listext-icon"> <i class="norc-d-check"></i> </div>
                             <div class="listext-text">
-                                <p>100+ successfully executed projects</p>
+                                <p>Plumbing</p>
                             </div>
                         </li>
                         <li>
                             <div class="listext-icon"> <i class="norc-d-check"></i> </div>
                             <div class="listext-text">
-                                <p>Exceptional work quality</p>
+                                <p>All kind of AC ducts</p>
                             </div>
                         </li>
                     </ul>
@@ -51,7 +53,6 @@
             </div>
         </div>
     </section>
-    <!-- Services -->
     <section class="services center section-padding bg-gray">
         <div class="container">
             <div class="row">
@@ -61,85 +62,44 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 owl-carousel owl-theme">
-                    <div class="item mb-30">
+                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <div class="item mx-3 mb-30">
                         <div class="service-img">
-                            <div class="img"> <img src="{{ asset('assets/img/services/1.jpg') }}" alt=""> </div>
+                            <div class="img"> <img src="{{ asset('assets/img/electric1.png') }}" alt=""> </div>
                         </div>
                         <div class="cont">
                             <div class="service-icon"> <i class="norc-new-construction"></i> </div>
-                            <h5><a href="services-page.html">Project Planning</a></h5>
+                            <h5><a href="services-page.html">Electric Work</a></h5>
                             <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
-                                risus nesuen.</p> <a href="services-page.html" class="link-btn" tabindex="0">View
-                                service</a>
+                                risus nesuen.</p>
                         </div>
                     </div>
-                    <div class="item mb-30">
+                    <div class="item mx-3 mb-30">
                         <div class="service-img">
-                            <div class="img"> <img src="{{ asset('assets/img/services/2.jpg') }}" alt=""> </div>
+                            <div class="img"> <img src="{{ asset('assets/img/plumber1.png') }}" alt=""> </div>
                         </div>
                         <div class="cont">
                             <div class="service-icon"> <i class="norc-construction-sign"></i> </div>
-                            <h5><a href="services-page.html">General Contracting</a></h5>
+                            <h5><a href="services-page.html">Plumbing Work</a></h5>
                             <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
-                                risus nesuen.</p> <a href="services-page.html" class="link-btn" tabindex="0">View
-                                service</a>
+                                risus nesuen.</p>
                         </div>
                     </div>
-                    <div class="item mb-30">
+                    <div class="item mx-3 mb-30">
                         <div class="service-img">
-                            <div class="img"> <img src="{{ asset('assets/img/services/3.jpg') }}" alt=""> </div>
+                            <div class="img"> <img src="{{ asset('assets/img/Ac1.png') }}" alt=""> </div>
                         </div>
                         <div class="cont">
                             <div class="service-icon"> <i class="norc-factory"></i> </div>
-                            <h5><a href="services-page.html">Industrial / Manufacturing</a></h5>
+                            <h5><a href="services-page.html">All type of AC Duct work</a></h5>
                             <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
-                                risus nesuen.</p> <a href="services-page.html" class="link-btn" tabindex="0">View
-                                service</a>
-                        </div>
-                    </div>
-                    <div class="item mb-30">
-                        <div class="service-img">
-                            <div class="img"> <img src="{{ asset('assets/img/services/4.jpg') }}" alt=""> </div>
-                        </div>
-                        <div class="cont">
-                            <div class="service-icon"> <i class="norc-radiation"></i> </div>
-                            <h5><a href="services-page.html">Energy and Environment</a></h5>
-                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
-                                risus nesuen.</p> <a href="services-page.html" class="link-btn" tabindex="0">View
-                                service</a>
-                        </div>
-                    </div>
-                    <div class="item mb-30">
-                        <div class="service-img">
-                            <div class="img"> <img src="{{ asset('assets/img/services/5.jpg') }}" alt=""> </div>
-                        </div>
-                        <div class="cont">
-                            <div class="service-icon"> <i class="norc-cogwheel"></i> </div>
-                            <h5><a href="services-page.html">Const. Management</a></h5>
-                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
-                                risus nesuen.</p> <a href="services-page.html" class="link-btn" tabindex="0">View
-                                service</a>
-                        </div>
-                    </div>
-                    <div class="item mb-30">
-                        <div class="service-img">
-                            <div class="img"> <img src="{{ asset('assets/img/services/6.jpg') }}" alt="">
-                            </div>
-                        </div>
-                        <div class="cont">
-                            <div class="service-icon"> <i class="norc-pantone"></i> </div>
-                            <h5><a href="services-page.html">Interior Design</a></h5>
-                            <p>Quisque imperdie miss sapien porttiton the bibendum. Pellentesque accumsa amet tincidunt
-                                risus nesuen.</p> <a href="services-page.html" class="link-btn" tabindex="0">View
-                                service</a>
+                                risus nesuen.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Process -->
     <section class="process">
         <div class="section-padding bg-img bg-fixed section-padding"
             data-background="{{ asset('assets/img/banner2.jpg') }}" data-overlay-dark="6">
@@ -585,44 +545,11 @@
                             <div class="owl-carousel owl-theme">
                                 <div class="item"> <span class="quote"><img src="{{ asset('assets/img/quot.png') }}"
                                             alt=""></span>
-                                    <p class="v-border">Company kaya nisl ullamcorper the duru metu enna lophare mavna
-                                        busnini viventa the ornare ipsuma. Curabitur magna pentesue the miss tenis vitae.
+                                    <p class="v-border">Their estimates of work, and project management skills are top
+                                        notch. The design work they do is excellent. They're super flexible and work with
+                                        you to get things just the way you like for as close to your budget as is possible.
+                                        Communication is top notch.
                                     </p>
-                                    <div class="info">
-                                        <div class="author-img"> <img src="{{ asset('assets/img/team/comment2.jpg') }}"
-                                                alt=""> </div>
-                                        <div class="cont">
-                                            <h6>Jason Brown</h6> <span>Hollywood Hills, CA</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item"> <span class="quote">
-                                        <img src="img/quot.png" alt="">
-                                    </span>
-                                    <p class="v-border">Company kaya nisl ullamcorper the duru metu enna lophare mavna
-                                        busnini viventa the ornare ipsuma. Curabitur magna pentesue the miss tenis vitae.
-                                    </p>
-                                    <div class="info">
-                                        <div class="author-img"> <img src="{{ asset('assets/img/team/comment3.jpg') }}"
-                                                alt=""> </div>
-                                        <div class="cont">
-                                            <h6>Emily White</h6> <span>Los Angeles, CA</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item"> <span class="quote">
-                                        <img src="img/quot.png" alt="">
-                                    </span>
-                                    <p class="v-border">Company kaya nisl ullamcorper the duru metu enna lophare mavna
-                                        busnini viventa the ornare ipsuma. Curabitur magna pentesue the miss tenis vitae.
-                                    </p>
-                                    <div class="info">
-                                        <div class="author-img"> <img src="{{ asset('assets/img/team/comment.jpg') }}"
-                                                alt=""> </div>
-                                        <div class="cont">
-                                            <h6>Enrico Smith</h6> <span>Malibu Beach, CA</span>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -631,7 +558,6 @@
             </div>
         </div>
     </section>
-    <!-- Clients -->
     <section class="clients">
         <div class="container">
             <div class="row">
