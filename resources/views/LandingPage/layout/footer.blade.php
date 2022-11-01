@@ -45,27 +45,27 @@
                     <div class="widget clearfix">
                         <h3 class="widget-title">About {{ env('APP_NAME') }}.</h3>
                         <div class="widget-text">
-                            <p>Quisque imperdiet sapien porttito the bibendum sellentesque the commodo erat acar accumsa
-                                lobortis, enim diam the nesuen.</p>
-                            <div class="social-icons">
+                            <p>{{ env('APP_NAME') }} is a Company which is loved to build your dream home. <br>
+                                Where You can live with your Loved Ons.
+                            </p>
+                            {{-- <div class="social-icons">
                                 <ul class="list-inline">
                                     <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                     <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
                                 </ul>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 offset-md-1 widget-area">
                     <div class="widget clearfix usful-links">
-                        <h3 class="widget-title">Quick Links</h3>
+                        <h3 class="widget-title">Branches</h3>
                         <ul>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="projects.html">Projects</a></li>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li>{{ env('APP_Branch3') }}</li>
+                            <li>{{ env('APP_Branch1') }}</li>
+                            <li>{{ env('APP_Branch2') }}</li>
                         </ul>
                     </div>
                 </div>
