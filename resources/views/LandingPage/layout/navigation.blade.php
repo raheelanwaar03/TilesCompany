@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
-<!-- Mirrored from duruthemes.com/demo/html/norc/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Nov 2022 06:40:24 GMT -->
-
+<html lang="">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>NORC. Construction</title>
+    <title>{{ env('APP_NAME') }}. Construction</title>
     <link rel="shortcut icon" href="{{ asset('assets/img/favicon.png') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/plugins.css') }}" />
     <link rel="stylesheet"
@@ -33,11 +30,11 @@
                 <div class="top-outer clearfix">
                     <div class="top-left">
                         <ul class="links clearfix">
-                            <li><a href="tel:+12033334444"><span class="fa fa-phone"></span>+1 203-333-4444</a></li>
+                            <li><a href="tel:+12033334444"><span class="fa fa-phone"></span>{{ env('APP_Phone') }}</a></li>
                             <li><a href="mailto:info@construction.com"><span
-                                        class="fa fa-envelope"></span>info@construction.com</a></li>
+                                        class="fa fa-envelope"></span>{{ env('APP_Email') }}</a></li>
                             <li><a href="https://goo.gl/maps/zgdqkg4hFFR8pfDS8" target="_blank"><span
-                                        class="fa fa-map-marker"></span>24 King St, SC 29401 USA</a></li>
+                                        class="fa fa-map-marker"></span>{{ env('APP_Address') }}</a></li>
                         </ul>
                     </div>
                 </div>
@@ -70,7 +67,7 @@
                         <div class="row">
                             <div class="col-md-7">
                                 <h4>Guaranteed High Quality</h4>
-                                <h1>Welcome to Norc. Construction</h1>
+                                <h1>Welcome to {{ env('APP_NAME') }}. Construction</h1>
                                 <p>Our 25 years working experience make a different construction building. Viverra
                                     tristique usto duis vitae diam neque nivamus estan the atin viverra nectow drana
                                     setlie.</p> <a href="projects.html" class="button-primary">Our Projects</a> <a

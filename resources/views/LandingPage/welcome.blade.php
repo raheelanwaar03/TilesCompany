@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-6 mb-30">
                     <div class="section-subtitle">Construction Firm</div>
-                    <div class="section-title">About <span>norc</span></div>
+                    <div class="section-title">About <span>{{ env('APP_NAME') }}</span></div>
                     <p>Our company at libero tristique mattis. Suspendisse potenti sed leonra main dignissim justo porta
                         eget. Curabitur luctus magna numsaton vivention esellentesue the miss tenis vitae mollie.</p>
                     <p>Curabitur luctus magna numsaton vivention esellentesue the mis awa vitan sedeonra magnain dignissim
@@ -31,7 +31,7 @@
                         </li>
                     </ul>
                     <div class="line-dec"></div>
-                    <div class="about-bottom"> <img src="{{ asset('assets/img/signature-dark') }}.svg" alt=""
+                    <div class="about-bottom"> <img src="{{ asset('assets/img/signature-dark.svg') }}" alt=""
                             class="image about-signature">
                         <div class="about-name-wrapper">
                             <div class="about-name">Adam Norman</div>

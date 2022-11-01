@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col-md-4 widget-area">
                     <div class="widget clearfix">
-                        <h3 class="widget-title">About Norc.</h3>
+                        <h3 class="widget-title">About {{ env('APP_NAME') }}.</h3>
                         <div class="widget-text">
                             <p>Quisque imperdiet sapien porttito the bibendum sellentesque the commodo erat acar accumsa
                                 lobortis, enim diam the nesuen.</p>
