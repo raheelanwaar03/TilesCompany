@@ -313,29 +313,14 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-subtitle"><span>Latest Work</span></div>
-                    <div class="section-title">Our <span>Work</span></div>
+                    <div class="section-title">Our <span>Constraction site</span></div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme">
-                        {{-- <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/plumber2.jpg') }}"
-                                    alt="">
-                            </div>
-                        </div>
                         <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/constraction3.jpg') }}"
-                                    alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/plumber1.jpg') }}"
-                                    alt="">
-                            </div>
-                        </div> --}}
-                        <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/company1.png') }}"
+                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/constraction1.png') }}"
                                     alt="">
                             </div>
                         </div>
@@ -345,17 +330,12 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/electric1.png') }}"
+                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/company1.png') }}"
                                     alt="">
                             </div>
                         </div>
                         <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/tile.webp') }}"
-                                    alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/panting.webp') }}"
+                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/constraction3.png') }}"
                                     alt="">
                             </div>
                         </div>
