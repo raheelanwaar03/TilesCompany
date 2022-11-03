@@ -313,7 +313,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-subtitle"><span>Latest Work</span></div>
-                    <div class="section-title">Our <span>Constraction site</span></div>
+                    <div class="section-title">Our <span>Work site</span></div>
                 </div>
             </div>
             <div class="row">
