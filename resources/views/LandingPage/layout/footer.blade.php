@@ -63,7 +63,6 @@
                     <div class="widget clearfix usful-links">
                         <h3 class="widget-title">Branches</h3>
                         <ul>
-                            <li>{{ env('APP_Branch3') }}</li>
                             <li>{{ env('APP_Branch1') }}</li>
                             <li>{{ env('APP_Branch2') }}</li>
                         </ul>

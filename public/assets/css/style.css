@@ -170,7 +170,7 @@ textarea {
 input:focus,
 textarea:focus {
     border-bottom-width: 1px;
-    border-color: #ed5521;
+    border-color: yellowgreen;
 }
 input[type="submit"],
 input[type="reset"],
@@ -356,7 +356,7 @@ input[type="checkbox"] {
 .listext-icon i {
     font-size: 20px;
     color: #fff;
-    background-color: #ed5521;
+    background-color: yellowgreen;
     border-radius: 50%;
     padding: 3px;
 }
@@ -382,7 +382,7 @@ input[type="checkbox"] {
     top: 0;
     height: 1px;
     width: 40px;
-    background: #ed5521;
+    background: yellowgreen;
 }
 /* line dec2 */
 .line-dec2 {
@@ -399,7 +399,7 @@ input[type="checkbox"] {
     top: 0;
     height: 1px;
     width: 90px;
-    background: #ed5521;
+    background: yellowgreen;
 }
 /* line dec3 */
 .line-dec3 {
@@ -416,7 +416,7 @@ input[type="checkbox"] {
     top: 0;
     height: 1px;
     width: 50px;
-    background: #ed5521;
+    background: yellowgreen;
 }
 /* hr line */
 hr {
@@ -429,7 +429,7 @@ hr.border-1 {
 }
 /* blockquote */
 blockquote {
-    border-left: 7px solid #ed5521;
+    border-left: 7px solid yellowgreen;
     padding: 45px;
     display: block;
     position: relative;
@@ -477,7 +477,7 @@ blockquote cite {
     line-height:1;
     margin-top: 22px;
     font-style:normal;
-    color: #ed5521;
+    color: yellowgreen;
     font-weight: 600;
 }
 blockquote cite:before {
@@ -489,7 +489,7 @@ blockquote cite:before {
     height: 1px;
     border-top: 1px solid;
     border-color:inherit;
-    color: #ed5521;
+    color: yellowgreen;
 }
 
 
@@ -548,7 +548,7 @@ blockquote cite:before {
     top: -2px;
     left: -2px;
     border: 1px solid transparent;
-    border-top: 1px solid #ed5521;
+    border-top: 1px solid yellowgreen;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -589,8 +589,8 @@ blockquote cite:before {
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #ed5521;
-    border: 1px solid #ed5521;
+    background: yellowgreen;
+    border: 1px solid yellowgreen;
 }
 
 
@@ -608,7 +608,7 @@ blockquote cite:before {
     margin-bottom: 20px;
 }
 .section-title span {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .section-subtitle {
     font-size: 16px;
@@ -623,7 +623,7 @@ blockquote cite:before {
     content: '';
     width: 40px;
     height: 1px;
-    background: #ed5521;
+    background: yellowgreen;
     position: absolute;
     left: 0;
     top: 50%;
@@ -638,7 +638,7 @@ blockquote cite:before {
     margin-bottom: 20px;
 }
 .section-title2 span {
-    color: #ed5521;
+    color: yellowgreen;
 }
 
 
@@ -647,7 +647,7 @@ blockquote cite:before {
     position: relative;
     z-index: 999;
     width: 100%;
-    background: #ed5521;
+    background: yellowgreen;
 }
 .main-header .header-top {
 	position: relative;
@@ -804,10 +804,10 @@ blockquote cite:before {
     color: #000;
 }
 .navbar .navbar-nav .nav-link:hover {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .navbar .navbar-nav .active {
-    color: #ed5521 !important;
+    color: yellowgreen !important;
 }
 .nav-scroll {
     background: #fff;
@@ -833,7 +833,7 @@ blockquote cite:before {
     color: #000;
 }
 .nav-scroll .navbar-nav .active {
-    color: #ed5521 !important;
+    color: yellowgreen !important;
 }
 .nav-scroll .navbar-nav .logo {
     padding: 15px 0;
@@ -1097,7 +1097,7 @@ blockquote cite:before {
     content: '';
     width: 40px;
     height: 1px;
-    background: #ed5521;
+    background: yellowgreen;
     position: absolute;
     left: 0;
     top: 50%;
@@ -1112,7 +1112,7 @@ blockquote cite:before {
     font-weight: 700;
 }
 .header .caption h1 span {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .header .caption p {
     font-size: 16px;
@@ -1177,7 +1177,7 @@ blockquote cite:before {
     border-radius: 100%;
 }
 .header .arrow i:hover {
-    border: 1px solid #ed5521;
+    border: 1px solid yellowgreen;
 }
 .header .arrow i:hover:after {
     -webkit-transform: scale(1.2);
@@ -1236,8 +1236,8 @@ blockquote cite:before {
 }
 .slider-fade .owl-theme .owl-dots .owl-dot.active span,
 .slider-fade .owl-theme .owl-dots .owl-dot:hover span {
-    background: #ed5521;
-    border: 1px solid #ed5521;
+    background: yellowgreen;
+    border: 1px solid yellowgreen;
 }
 .slider .owl-theme .owl-dots {
     position: absolute;
@@ -1346,13 +1346,13 @@ blockquote cite:before {
     content: '';
     width: 40px;
     height: 1px;
-    background: #ed5521;
+    background: yellowgreen;
     position: absolute;
     left: 0;
     top: 50%;
 }
 .banner-header h6 a {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .banner-header h1 {
     font-size: 48px;
@@ -1364,7 +1364,7 @@ blockquote cite:before {
     position: relative;
 }
 .banner-header h1 span {
-    color: #ed5521
+    color: yellowgreen
 }
 .banner-header p {
     font-size: 16px;
@@ -1377,7 +1377,7 @@ blockquote cite:before {
     color: #fff;
 }
 .banner-header p span {
-    color: #ed5521;
+    color: yellowgreen;
 }
 /* author & date */
 .banner-header .author .avatar {
@@ -1404,7 +1404,7 @@ blockquote cite:before {
     margin-right: 20px
 }
 .banner-header .post .date-comment i {
-    color: #ed5521;
+    color: yellowgreen;
     font-size: 18px;
     margin-right: 5px;
 }
@@ -1478,7 +1478,7 @@ blockquote cite:before {
     z-index: 11;
     border-radius: 2px;
     text-align: left;
-    background: #ed5521;
+    background: yellowgreen;
     box-shadow: 0 5px 25px rgb(0 0 0 / 5%);
 }
 .about-img-hotifer:before {
@@ -1546,7 +1546,7 @@ blockquote cite:before {
     left: 0;
     right: 80px;
     bottom: 80px;
-    background: #ed5521;
+    background: yellowgreen;
 }
 .about-info .about-info-img .img img {
     position: relative;
@@ -1600,7 +1600,7 @@ blockquote cite:before {
     left: 0;
     height: 0;
     width: 100%;
-    background-color: #ed5521;
+    background-color: yellowgreen;
     opacity: 0.9;
     visibility: hidden
 }
@@ -1730,7 +1730,7 @@ blockquote cite:before {
     margin-right: 2px;
 }
 .services .item .info .tag {
-    color: #ed5521;
+    color: yellowgreen;
     font-weight: 400;
     float: right;
 }
@@ -1758,7 +1758,7 @@ blockquote cite:before {
     min-width: 60px;
     margin-bottom: 20px;
     margin-top: -60px;
-    background-color: #ed5521;
+    background-color: yellowgreen;
     color: #fff;
     font-size: 30px;
     display: -webkit-box;
@@ -1833,7 +1833,7 @@ blockquote cite:before {
     max-height: 60px;
     min-height: 60px;
     min-width: 60px;
-    background-color: #ed5521;
+    background-color: yellowgreen;
     color: #fff;
     font-size: 30px;
     display: -webkit-box;
@@ -1899,7 +1899,7 @@ blockquote cite:before {
     color: #555;
 }
 .services2 .btn-line a:hover {
-    border-bottom: 1px solid #ed5521;
+    border-bottom: 1px solid yellowgreen;
     color: #555;
 }
 .services2 .square-flip .square2 {
@@ -2031,7 +2031,7 @@ blockquote cite:before {
     left: 0;
     height: 0;
     width: 100%;
-    background-color: #ed5521;
+    background-color: yellowgreen;
     opacity: 0.9;
     visibility: hidden
 }
@@ -2150,7 +2150,7 @@ blockquote cite:before {
     margin-bottom: 10px;
 }
 .values .single-facility:hover h5 {
-  color: #ed5521;
+  color: yellowgreen;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -2166,7 +2166,7 @@ blockquote cite:before {
     display: inline-block;
     -webkit-transition: .5s;
     transition: .5s;
-    background: #ed5521;
+    background: yellowgreen;
     padding: 10px;
 }
 .values .single-facility p {
@@ -2236,7 +2236,7 @@ blockquote cite:before {
     color: #000;
 }
 .projects .caption h4 span {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .projects .caption .info-wrapper {
     display: -webkit-box;
@@ -2256,7 +2256,7 @@ blockquote cite:before {
     align-items: center;
 }
 .projects .caption .info-wrapper .more {
-    color: #ed5521;
+    color: yellowgreen;
     text-decoration: none;
     font-size: 16px;
 }
@@ -2270,7 +2270,7 @@ blockquote cite:before {
 }
 .projects .caption .info-wrapper .date i {
     font-size: 20px;
-    color: #ed5521;
+    color: yellowgreen;
     margin-right: 5px;
 }
 
@@ -2316,10 +2316,10 @@ blockquote cite:before {
 }
 .projects-prev-next a i {
   font-size: 20px;
-    color: #ed5521;
+    color: yellowgreen;
 }
 .projects-prev-next a:hover {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .projects-prev-next .projects-prev-next-left a i {
   margin-right: 5px;
@@ -2360,7 +2360,7 @@ blockquote cite:before {
     position: relative;
     text-align: center;
     font-size: 16px;
-    color: #ed5521;
+    color: yellowgreen;
     font-weight: 400;
     border-radius: 0;
     margin-right: 5px;
@@ -2371,7 +2371,7 @@ blockquote cite:before {
 .project-page .share-icons li a {
     display: block;
     text-align: center;
-    color: #ed5521;
+    color: yellowgreen;
 }
 .project-page .share-icons li > a {
     font-size: 20px;
@@ -2412,7 +2412,7 @@ blockquote cite:before {
     position: absolute;
     top: 20px;
     left: 20px;
-    background: #ed5521;
+    background: yellowgreen;
     color: #fff;
     padding: 6px 12px 8px 12px;
     text-align: center;
@@ -2456,14 +2456,14 @@ blockquote cite:before {
 }
 .news .item .con h5:hover,
 .news .item .con h5 a:hover {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .news .item .con p {
     color: #555;
     font-size: 17px;
 }
 .news .item .con i {
-    color: #ed5521;
+    color: yellowgreen;
     font-size: 18px;
 }
 .news .item .divider {
@@ -2575,7 +2575,7 @@ blockquote cite:before {
     position: absolute;
     bottom: 30px;
     left: 30px;
-    background: #ed5521;
+    background: yellowgreen;
     color: #fff;
     padding: 6px 12px;
     text-align: center;
@@ -2615,14 +2615,14 @@ blockquote cite:before {
 }
 .news2 .item .con h5:hover,
 .news2 .item .con h5 a:hover {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .news2 .item .con p {
     color: #555;
     font-size: 17px;
 }
 .news2 .item .con i {
-    color: #ed5521;
+    color: yellowgreen;
     font-size: 18px;
 }
 .news2 .item .divider {
@@ -2722,10 +2722,10 @@ blockquote cite:before {
     color: #555;
 }
 .news2-sidebar .widget ul li a.active {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .news2-sidebar .widget ul li a:hover {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .news2-sidebar .widget ul li:last-child {
     margin-bottom: 0;
@@ -2733,7 +2733,7 @@ blockquote cite:before {
 .news2-sidebar .widget ul li i {
     font-size: 14px;
     margin-right: 5px;
-    color: #ed5521;
+    color: yellowgreen;
 }
 .news2-sidebar .widget .recent li {
     display: block;
@@ -2773,7 +2773,7 @@ blockquote cite:before {
     position: absolute;
     right: 0;
     top: 0;
-    background-color: #ed5521;
+    background-color: yellowgreen;
     color: #fff;
     border: 0;
     padding: 8px 16px;
@@ -2794,7 +2794,7 @@ blockquote cite:before {
 .news2-sidebar ul.tags:hover,
 .news2-sidebar ul.tags li:hover,
 .news2-sidebar ul.tags li a:hover {
-    background-color: #ed5521;
+    background-color: yellowgreen;
     color: #fff;
 }
 /* pagination */
@@ -2827,13 +2827,13 @@ blockquote cite:before {
 .news-pagination-wrap li a:hover {
     opacity: 1;
     text-decoration: none;
-    background: #ed5521;
-    border: 1px solid #ed5521;
+    background: yellowgreen;
+    border: 1px solid yellowgreen;
     color: #fff;
 }
 .news-pagination-wrap li a.active {
-    background-color: #ed5521;
-    border: 1px solid #ed5521;
+    background-color: yellowgreen;
+    border: 1px solid yellowgreen;
     color: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -3078,7 +3078,7 @@ button.mfp-arrow {
     position: absolute;
     top: 20px;
     left: 20px;
-    background: #ed5521;
+    background: yellowgreen;
     padding: 9px 14px;
     color: #fff;
 }
@@ -3099,8 +3099,8 @@ button.mfp-arrow {
 }
 .faqs-accordion .accordion .active .title {
     color: #fff;
-    background: #ed5521;
-    border: 1px solid #ed5521;
+    background: yellowgreen;
+    border: 1px solid yellowgreen;
     -webkit-box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.05);
 }
@@ -3120,7 +3120,7 @@ button.mfp-arrow {
 /* ======= Clients style ======= */
 .clients {
     background-color: #000;
-    background-color: #ed5521;
+    background-color: yellowgreen;
 }
 .clients .owl-carousel {
     margin: 10px 0;
@@ -3184,7 +3184,7 @@ button.mfp-arrow {
 .price .item .value h4 {
     font-size: 40px;
     margin-bottom: 0;
-    color: #ed5521;
+    color: yellowgreen;
     line-height: 1em;
 }
 .price .item .value h4 span {
@@ -3195,7 +3195,7 @@ button.mfp-arrow {
     font-size: 16px;
     font-weight: 400;
     margin-top: 0px;
-    color: #ed5521;
+    color: yellowgreen;
 }
 .price .item .feat ul {
     margin-bottom: 30px;
@@ -3308,7 +3308,7 @@ button.mfp-arrow {
 }
 /* hover */
 .position:hover {
-    background-color: #ed5521;
+    background-color: yellowgreen;
 }
 .position:hover .position-title,
 .position:hover .position-title span,
@@ -3370,7 +3370,7 @@ button.mfp-arrow {
 }
 .process .item:hover .icon {
   background: #fff !important;
-  color: #ed5521;
+  color: yellowgreen;
 }
 .process .item img {
   position: absolute;
@@ -3391,7 +3391,7 @@ button.mfp-arrow {
     height: 80px;
     line-height: 80px;
     border-radius: 50%;
-    background: #ed5521;
+    background: yellowgreen;
     position: relative;
     margin-bottom: 40px;
     z-index: 2;
@@ -3423,7 +3423,7 @@ button.mfp-arrow {
 .process h5 {
     font-size: 16px;
     font-weight: 400;
-    color: #ed5521;
+    color: yellowgreen;
     position: relative;
     margin-bottom: 0px;
 }
@@ -3434,7 +3434,7 @@ button.mfp-arrow {
 }
 .process .item h6 span {
     font-size: 14px;
-    color: #ed5521;
+    color: yellowgreen;
     margin-right: 10px;
 }
 .process p,
@@ -3482,13 +3482,13 @@ button.mfp-arrow {
     bottom: 5px;
     line-height: 80px;
     border-radius: 50%;
-    background: #ed5521;
+    background: yellowgreen;
 }
 .numbers .item .icon .back {
     background: #fff;
     -webkit-transform: translateX(120%);
     transform: translateX(120%);
-    color: #ed5521;
+    color: yellowgreen;
 }
 .numbers .item h3 {
     font-weight: 700;
@@ -3502,7 +3502,7 @@ button.mfp-arrow {
 }
 .numbers .item h6 span {
     font-size: 14px;
-    color: #ed5521;
+    color: yellowgreen;
     margin-right: 10px;
 }
 ol.number {
@@ -3517,7 +3517,7 @@ ol.number li {
 ol.number li:before {
     margin-right: 10px;
     content: counter(item);
-    background: #ed5521;
+    background: yellowgreen;
     border-radius: 0px;
     color: #fff;
     width: 26px;
@@ -3549,7 +3549,7 @@ ol.number li:before {
     content: '';
     width: 40px;
     height: 1px;
-    background: #ed5521;
+    background: yellowgreen;
     position: absolute;
     left: 0;
     top: 50%;
@@ -3616,10 +3616,10 @@ ol.number li:before {
     z-index: 0;
 }
 .play-button.color {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .play-button.color .circle-fill circle {
-    fill: #ed5521;
+    fill: yellowgreen;
 }
 /* video gallery */
 /*
@@ -3650,7 +3650,7 @@ ol.number li:before {
 .video-gallery-polygon:hover {
     background: #fff;
     border: 1px solid #fff;
-    color: #ed5521;
+    color: yellowgreen;
 }
 */
 
@@ -3670,7 +3670,7 @@ ol.number li:before {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    background: #ed5521;
+    background: yellowgreen;
     border-radius: 50%;
     color: #fff;
     box-shadow: 0px 0px 0px 5px rgb(255 255 255 / 10%);
@@ -3683,7 +3683,7 @@ ol.number li:before {
 
 .video-gallery-polygon:hover {
     background: #fff;
-    color: #ed5521;
+    color: yellowgreen;
 }
 
 
@@ -3698,7 +3698,7 @@ ol.number li:before {
     background: #fff;
     padding: 45px;
     margin-bottom: -60px;
-    border-top: 7px solid #ed5521;
+    border-top: 7px solid yellowgreen;
 }
 .testimonials-box .head-box h6 {
     position: relative;
@@ -3712,7 +3712,7 @@ ol.number li:before {
     content: '';
     width: 40px;
     height: 1px;
-    background: #ed5521;
+    background: yellowgreen;
     position: absolute;
     left: 0;
     top: 50%;
@@ -3829,7 +3829,7 @@ ol.number li:before {
     font-weight: 400;
 }
 .news-post-repay:hover {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .news-post-categorydate-wrapper {
     display: -webkit-box;
@@ -3885,7 +3885,7 @@ ol.number li:before {
     max-height: 60px;
     min-height: 60px;
     min-width: 60px;
-    background-color: #ed5521;
+    background-color: yellowgreen;
     color: #fff;
     font-size: 27px;
     display: -webkit-box;
@@ -3896,7 +3896,7 @@ ol.number li:before {
     align-items: center;
 }
 .contact .contact-link-icon span {
-    background: #ed5521;
+    background: yellowgreen;
     color: #fff;
     width: 100%;
     text-align: center;
@@ -3930,7 +3930,7 @@ ol.number li:before {
     right: 10px;
     left: 120px;
     bottom: -20px;
-    background: #ed5521;
+    background: yellowgreen;
     z-index: -1;
 }
 .contact .form-wrap .form-box:after {
@@ -3957,7 +3957,7 @@ ol.number li:before {
     padding: 14px 30px;
     border: 1px solid transparent;
     border-radius: 80px;
-    background-color: #ed5521;
+    background-color: yellowgreen;
     -webkit-transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
     transition: border-color 400ms ease, color 400ms ease, background-color 400ms ease;
     color: #fff;
@@ -3979,7 +3979,7 @@ ol.number li:before {
     padding: 14px 30px;
     border: 1px solid transparent;
     border-radius: 80px;
-    background-color: #ed5521;
+    background-color: yellowgreen;
     -webkit-transition: border-color 400ms ease, background-color 400ms ease;
     transition: border-color 400ms ease, background-color 400ms ease;
     color: #fff;
@@ -4008,8 +4008,8 @@ ol.number li:before {
     text-align: center;
 }
 .button-tersiyer:hover {
-    border: 1px solid #ed5521;
-    background-color: #ed5521;
+    border: 1px solid yellowgreen;
+    background-color: yellowgreen;
     color: #fff;
 }
 /* line hover  */
@@ -4025,7 +4025,7 @@ ol.number li:before {
     font-family: 'Syne', sans-serif;
 }
 .link-btn:hover {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .link-btn i {
     margin-left: 5px;
@@ -4038,7 +4038,7 @@ ol.number li:before {
     bottom: -1px;
     width: 0;
     height: 1px;
-    background-color: #ed5521;
+    background-color: yellowgreen;
     -webkit-transition: all ease 0.4s;
     transition: all ease 0.4s
 }
@@ -4072,7 +4072,7 @@ ol.number li:before {
     max-height: 65px;
     min-height: 65px;
     min-width: 65px;
-    background-color: #ed5521;
+    background-color: yellowgreen;
     color: #fff;
     font-size: 35px;
     display: -webkit-box;
@@ -4170,7 +4170,7 @@ ol.number li:before {
     margin-bottom: 5px;
 }
 .footer .usful-links ul li:hover {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .footer .usful-links ul li i {
     font-size: 7px;
@@ -4185,7 +4185,7 @@ ol.number li:before {
     width: 6px;
     height: 6px;
     content: "";
-    background: #ed5521;
+    background: yellowgreen;
     border-radius: 50%;
     display: block;
     position: absolute;
@@ -4193,7 +4193,7 @@ ol.number li:before {
     top: 12px;
 }
 .footer .usful-links ul li a:hover {
-    color: #ed5521;
+    color: yellowgreen;
 }
 /* bottom footer */
 .copyright {
@@ -4205,10 +4205,10 @@ ol.number li:before {
     font-size: 14px;
 }
 .copyright p a {
-    color: #ed5521;
+    color: yellowgreen;
 }
 .copyright p a:hover {
-    color: #ed5521;
+    color: yellowgreen;
 }
 /* social icons */
 .social-icons li {
@@ -4221,7 +4221,7 @@ ol.number li:before {
     line-height: 45px;
     text-align: center;
     font-size: 16px;
-    background: #ed5521;
+    background: yellowgreen;
     color: #fff;
     font-weight: 400;
     border-radius: 0;
@@ -4240,7 +4240,7 @@ ol.number li:before {
 }
 .social-icons li a:hover {
     background: #fff;
-    color: #ed5521;
+    color: yellowgreen;
 }
 /* newsletter */
 .widget-newsletter {
@@ -4259,7 +4259,7 @@ ol.number li:before {
 .widget-newsletter button {
     height: 50px;
     border: none;
-    background: #ed5521;
+    background: yellowgreen;
     font-size: 16px;
     color: #fff;
     outline: none;
@@ -4320,7 +4320,7 @@ ol.number li:before {
     background-color: #fff;
 }
 .title-404 {
-    color: #ed5521;
+    color: yellowgreen;
     font-size: 150px;
     line-height: 1.25em;
     font-weight: 700;
@@ -4331,7 +4331,7 @@ ol.number li:before {
     right: 0%;
     bottom: 0%;
     min-height: 50%;
-    background-color: #ed5521;
+    background-color: yellowgreen;
     position: absolute;
 }
 
@@ -4480,7 +4480,7 @@ ol.number li:before {
         color: #555 !important;
     }
     .nav-scroll .navbar-collapse .active {
-        color: #ed5521 !important;
+        color: yellowgreen !important;
     }
     .dropdown-menu {
         opacity: 1;
