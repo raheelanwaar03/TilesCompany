@@ -63,24 +63,22 @@
                     <div class="widget clearfix usful-links">
                         <h3 class="widget-title">Branches</h3>
                         <ul>
-                            <li>{{ env('APP_Branch3') }}</li>
                             <li>{{ env('APP_Branch1') }}</li>
                             <li>{{ env('APP_Branch2') }}</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-4 widget-area">
-                    {{-- <div class="widget clearfix">
-                        <h3 class="widget-title">Subscribe</h3>
-                        <p>Want to be notified about our news. Just sign up and we'll send you a notification by email.
-                        </p>
-                        <div class="widget-newsletter">
-                            <form action="#">
-                                <input type="email" placeholder="Email Address" required>
-                                <button type="submit">Send</button>
-                            </form>
-                        </div>
-                    </div> --}}
+                    <div class="widget clearfix">
+                        <h3 class="widget-title">Sobha Developers</h3>
+
+                        <ul>
+                            <li><strong>1)</strong> Meydan site</li>
+                            <li><strong>2)</strong> K.B.B.H Hotels</li>
+                            <li><strong>3)</strong> Hart Land Schools</li>
+                        </ul>
+
+                    </div>
                 </div>
             </div>
         </div>
