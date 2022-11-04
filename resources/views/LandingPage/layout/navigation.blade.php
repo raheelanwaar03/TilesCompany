@@ -12,7 +12,10 @@
         href="https://fonts.googleapis.com/css2?family=Didact+Gothic&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
 </head>
-
+{{--
+    This website is developed by Raheel Anwaar.
+    For Constant me whatsapp 03167007156.
+     --}}
 <body>
     <div class="preloader-bg"></div>
     <div id="preloader">

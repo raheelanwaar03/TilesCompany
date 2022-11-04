@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 widget-area">
-                    <div class="widget clearfix">
+                    {{-- <div class="widget clearfix">
                         <h3 class="widget-title">Sobha Developers</h3>
 
                         <ul>
@@ -78,7 +78,7 @@
                             <li><strong>3)</strong> Hart Land Schools</li>
                         </ul>
 
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
