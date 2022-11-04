@@ -313,22 +313,14 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-subtitle"><span>Latest Work</span></div>
-<<<<<<< HEAD
-                    <div class="section-title">Our <span>Work sites</span></div>
-=======
                     <div class="section-title">Our <span>Work site</span></div>
->>>>>>> 098ccbf8b9bedc60572a7d0151a6c8c98f9fd509
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-<<<<<<< HEAD
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/company1.png') }}"
-=======
                             <div class="position-re o-hidden"> <img src="{{ asset('assets/img/constraction1.png') }}"
->>>>>>> 098ccbf8b9bedc60572a7d0151a6c8c98f9fd509
                                     alt="">
                             </div>
                         </div>
@@ -343,16 +335,12 @@
                             </div>
                         </div>
                         <div class="item">
-<<<<<<< HEAD
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/constraction2.png') }}"
-=======
                             <div class="position-re o-hidden"> <img src="{{ asset('assets/img/company1.png') }}"
                                     alt="">
                             </div>
                         </div>
                         <div class="item">
                             <div class="position-re o-hidden"> <img src="{{ asset('assets/img/constraction3.png') }}"
->>>>>>> 098ccbf8b9bedc60572a7d0151a6c8c98f9fd509
                                     alt="">
                             </div>
                         </div>
