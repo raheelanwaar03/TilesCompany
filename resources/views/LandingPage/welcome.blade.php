@@ -325,11 +325,6 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('assets/img/constraction1.png') }}"
-                                    alt="">
-                            </div>
-                        </div>
-                        <div class="item">
                             <div class="position-re o-hidden"> <img src="{{ asset('assets/img/company2.png') }}"
                                     alt="">
                             </div>
