@@ -34,7 +34,7 @@
                         </li>
                         <li>
                             <div class="listext-icon"> <i class="norc-d-check"></i> </div>
-                            <div class="listext-text">`
+                            <div class="listext-text">
                                 <p>Panting</p>
                             </div>
                         </li>
