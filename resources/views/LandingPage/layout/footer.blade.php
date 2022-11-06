@@ -21,7 +21,7 @@
                                 </div>
                                 <div class="footer-contact-link-content">
                                     <h6>Write to us</h6>
-                                    <p>{{ env('App_Email') }}</p>
+                                    <p>{{ env('APP_Email') }}</p>
                                 </div>
                             </div>
                             <div class="footer-contact-links-divider"></div>
